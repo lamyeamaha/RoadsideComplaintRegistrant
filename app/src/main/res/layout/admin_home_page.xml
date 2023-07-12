@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin Home Page"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#9380E8"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="#e6e6fa">
+
+        <TextView
+            android:id="@+id/btnSeeComplaint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:text="See Past List of Complaints"
+            android:textSize="18dp"
+            android:background="#80C5FF"
+            android:clickable="true"
+            />
+
+
+        <TextView
+            android:id="@+id/btnUpdateComplaintStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:text="Review Complaint Status"
+            android:textSize="18dp"
+            android:background="#80C5FF"
+            android:clickable="true"/>
+
+
+        <TextView
+            android:id="@+id/btnCheckFeedbacks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:text="Check User Feedbacks"
+            android:textSize="18dp"
+            android:background="#80C5FF"
+            android:clickable="true"/>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9380E8"
+        >
+
+
+
+        <TextView
+            android:id="@+id/btnExit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="LogOut"
+            android:textSize="18dp"
+            android:clickable="true"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
